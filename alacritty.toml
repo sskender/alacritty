@@ -1,32 +1,49 @@
+live_config_reload = false
+
 [env]
 TERM = "xterm-256color"
 
+[window]
+padding.x = 5
+padding.y = 2
+dynamic_padding = false
+decorations = "Full"
+opacity = 0.90
+blur = false
+startup_mode = "Maximized"
+dynamic_title = true
+option_as_alt = "Both"
 
-# Colors (Gruvbox dark)
+[scrolling]
+history = 10000
+multiplier = 3
 
-# Default colors
+[font]
+size = 12.5
+
+[selection]
+save_to_clipboard = true
+
 [colors.primary]
-background = '#282828'
-foreground = '#ebdbb2'
+background = "#282828"
+foreground = "#ebdbb2"
 
-# Normal colors
 [colors.normal]
-black   = '#282828'
-red     = '#cc241d'
-green   = '#98971a'
-yellow  = '#d79921'
-blue    = '#458588'
-magenta = '#b16286'
-cyan    = '#689d6a'
-white   = '#a89984'
+black   = "#282828"
+red     = "#cc241d"
+green   = "#98971a"
+yellow  = "#d79921"
+blue    = "#458588"
+magenta = "#b16286"
+cyan    = "#689d6a"
+white   = "#a89984"
 
-# Bright colors
 [colors.bright]
-black   = '#928374'
-red     = '#fb4934'
-green   = '#b8bb26'
-yellow  = '#fabd2f'
-blue    = '#83a598'
-magenta = '#d3869b'
-cyan    = '#8ec07c'
-white   = '#ebdbb2'
+black   = "#928374"
+red     = "#fb4934"
+green   = "#b8bb26"
+yellow  = "#fabd2f"
+blue    = "#83a598"
+magenta = "#d3869b"
+cyan    = "#8ec07c"
+white   = "#ebdbb2"
