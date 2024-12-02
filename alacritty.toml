@@ -8,7 +8,6 @@ padding.x = 5
 padding.y = 2
 dynamic_padding = false
 decorations = "Full"
-opacity = 0.95
 blur = false
 startup_mode = "Maximized"
 dynamic_title = true
@@ -41,11 +40,11 @@ style  = "Regular"
 save_to_clipboard = true
 
 [colors.primary]
-background = "#282828"
+background = "#272627"
 foreground = "#ebdbb2"
 
 [colors.normal]
-black   = "#282828"
+black   = "#272627"
 red     = "#cc241d"
 green   = "#98971a"
 yellow  = "#d79921"
